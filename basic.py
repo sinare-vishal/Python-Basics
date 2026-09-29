@@ -80,4 +80,43 @@ value = str(4)
 print(type(value))
 #same for the list ,tuple ,complex ,dectionary etc ...
 
+#LITERALS :-
+# literal is a raw data given in a variable. in py heres the type :-
+# 1. Numeric literal
+# 2. string literal
+# 3. boolean literal 
+# 4. special literal 
+
+#Numerial:-it include diffrent type such as 
+a= 0b10101 #Binary literal , output - 10
+b= 100 # decimal literal , output - 100
+c= 0o310 #octal literal ,output - 200
+d = 0x12c #hexadecimal literal , output - 300
+
+#float literal:
+float_1= 10.5  #o/p - 10.5
+float_2 = 1.5e2  #o/p - 150.0
+flaot_3 = 1.5e-3  #o/p - 0.0015
+
+#complex literal :-
+# in which we can extract the imaginery and the real part of the literal like ..
+x = 3.14j
+print(x,x.imag,x.real)
+
+# String literals :-
+#for multiple line used """..... """ 
+#for unicode (sticker/emoji) used u :-
+unicode = u"\U0001F600"
+print(unicode)
+#for raw string (if it include special symbol like /n etc) used:-
+raw_str = r" raw \n string"
+print(raw_str)
+
+#Boolean literal:-
+a=True + 3 #it consider true  as 1 so o/p = 4
+
+#special literals :- in these we assign value as a none to the variable to just keep the variable in the program ...
+k=None
+
+####Operators:-
 
